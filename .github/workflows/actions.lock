@@ -16,7 +16,7 @@ workflows:
         - 'astral-sh/setup-uv@v10.0.1'
     '.github/workflows/zizmor.yml':
         - 'actions/checkout@v6.0.2'
-        - 'zizmorcore/zizmor-action@v0.5.3'
+        - 'zizmorcore/zizmor-action@v0.8.1'
 dependencies:
     'actions/checkout@v6.0.2':
         ref: 'v6.0.2'
@@ -33,9 +33,9 @@ dependencies:
         commit: 'sha1-20cfd1bf945f4377ade1205e4dbc17946fc9a30d'
         owner_id: 115962839
         repo_id: 846733598
-    'github/codeql-action@c10b8064de6f491fea524254123dbe5e09572f13':
-        ref: 'v4.35.1'
-        commit: 'sha1-c10b8064de6f491fea524254123dbe5e09572f13'
+    'github/codeql-action@9b3254085494b55a0f7c4c2b3d2d52cc712ce370':
+        ref: 'v4.39.1'
+        commit: 'sha1-9b3254085494b55a0f7c4c2b3d2d52cc712ce370'
         owner_id: 9919
         repo_id: 259445878
     'pre-commit-ci/lite-action@v1.1.0':
@@ -53,10 +53,10 @@ dependencies:
         commit: 'sha1-ff4e51a433de4c22bbf90597e069e8247b9203d2'
         owner_id: 1326112
         repo_id: 1327025554
-    'zizmorcore/zizmor-action@v0.5.3':
-        ref: 'v0.5.3'
-        commit: 'sha1-b1d7e1fb5de872772f31590499237e7cce841e8e'
+    'zizmorcore/zizmor-action@v0.8.1':
+        ref: 'v0.8.1'
+        commit: 'sha1-45d7276c9ca790aabd705e31ca99c6185c3e76dd'
         owner_id: 210636713
         repo_id: 985558803
         uses:
-            - 'github/codeql-action@c10b8064de6f491fea524254123dbe5e09572f13'
+            - 'github/codeql-action@9b3254085494b55a0f7c4c2b3d2d52cc712ce370'
